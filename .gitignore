@@ -1,0 +1,48 @@
+# Build results
+bin/
+obj/
+out/
+Debug/
+Release/
+
+# Rider / IntelliJ IDEA
+.idea/
+*.sln.iml
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+logs/
+
+# Entity Framework
+Migrations/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Packages
+*.nupkg
+*.snupkg
+*.nuspec
+*.dll
+*.exe
+
+# Node (if using frontend with npm/yarn)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Secrets
+appsettings.Development.json
+appsettings.*.local.json
+secrets.json
+.env
+
+.fake
